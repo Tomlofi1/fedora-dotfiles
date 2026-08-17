@@ -1,20 +1,16 @@
 #!/usr/bin/env bash
 
-# CAVA
-if ! pgrep -f "cool-retro-term.*cava" >/dev/null; then
-  cool-retro-term -e cava &
+# Se já existem 4 Cool Retro Terms, não faz nada
+COUNT=$(pgrep -fc "cool-retro-term")
+
+if [ "$COUNT" -ge 4 ]; then
+  exit 0
 fi
+
+# Fecha qualquer resto incompleto
+pkill cool-retro-term 2>/dev/null
 
 sleep 1
 
-# BTOP
-if ! pgrep -f "cool-retro-term.*btop" >/dev/null; then
-  cool-retro-term -e btop &
-fi
-
-sleep 1
-
-# FASTFETCH + shell
-if ! pgrep -f "cool-retro-term.*fastfetch" >/dev/null; then
-  cool-retro-term -e bash -c "fastfetch; exec bash" &
-fi
+# Recria o grid inteiro bonitinho
+"$HOME/.local/bin/cyber-grid.sh"
