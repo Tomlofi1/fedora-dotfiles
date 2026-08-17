@@ -1,0 +1,10 @@
+*.log
+*.cache
+*.bak
+*.tmp
+
+.env
+.env.*
+*token*
+*secret*
+*credential*

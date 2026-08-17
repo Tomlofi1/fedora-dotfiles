@@ -1,0 +1,3 @@
+GTK='Orchis-Purple-Dark'
+ICON='candy-icons'
+CURSOR='Bibata-Modern-Ice'

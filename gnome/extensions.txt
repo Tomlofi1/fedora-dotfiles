@@ -1,0 +1,5 @@
+dash-to-dock@micxgx.gmail.com
+user-theme@gnome-shell-extensions.gcampax.github.com
+blur-my-shell@aunetx
+just-perfection-desktop@just-perfection
+background-logo@fedorahosted.org

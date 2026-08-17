@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=BTOP CRT
+Exec=cool-retro-term -e btop
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=5
+Terminal=false

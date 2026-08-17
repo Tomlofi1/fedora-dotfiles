@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=System CRT
+Exec=cool-retro-term -e bash -c "fastfetch; exec bash"
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=7
+Terminal=false

@@ -1,0 +1,51 @@
+.window-controls-container {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+
+  margin-left: 12px !important;
+  margin-right: 12px !important;
+  padding: 0 !important;
+}
+
+.window-controls-container .window-icon {
+  width: 12px !important;
+  height: 12px !important;
+  min-width: 12px !important;
+  min-height: 12px !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  border-radius: 50% !important;
+  border: none !important;
+  box-shadow: none !important;
+
+  color: transparent !important;
+}
+
+/* Amarelo */
+.window-controls-container .codicon-chrome-minimize {
+  background: #ffbd2e !important;
+}
+
+/* Verde */
+.window-controls-container .codicon-chrome-maximize,
+.window-controls-container .codicon-chrome-restore {
+  background: #28c840 !important;
+}
+
+/* Vermelho */
+.window-controls-container .codicon-chrome-close {
+  background: #ff5f57 !important;
+}
+
+/* remove os símbolos internos */
+.window-controls-container .window-icon::before {
+  display: none !important;
+}
+
+/* hover discreto */
+.window-controls-container .window-icon:hover {
+  filter: brightness(1.15) !important;
+}

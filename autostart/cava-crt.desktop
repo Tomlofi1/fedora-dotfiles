@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=CAVA CRT
+Exec=cool-retro-term -e cava
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=3
+Terminal=false

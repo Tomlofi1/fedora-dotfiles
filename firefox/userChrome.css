@@ -1,0 +1,49 @@
+.titlebar-buttonbox {
+  display: flex !important;
+  align-items: center !important;
+  gap: 7px !important;
+  transform: translateY(0px) !important;
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+}
+
+.titlebar-button {
+  width: 13px !important;
+  min-width: 13px !important;
+
+  height: 13px !important;
+  min-height: 13px !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  border-radius: 50% !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* minimizar */
+.titlebar-min {
+  background-color: #ffbd2e !important;
+}
+
+/* maximizar */
+.titlebar-max,
+.titlebar-restore {
+  background-color: #28c840 !important;
+}
+
+/* fechar */
+.titlebar-close {
+  background-color: #ff5f57 !important;
+}
+
+/* remove os símbolos */
+.titlebar-button > image {
+  opacity: 0 !important;
+}
+
+/* hover bem sutil */
+.titlebar-button:hover {
+  filter: brightness(1.12) !important;
+}
